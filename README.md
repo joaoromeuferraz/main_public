@@ -10,7 +10,4 @@ Creates and manages a cash-flow based portfolio of assets.
 Interface for creating and backtesting trading strategies
 
 ### Data
-Handles 
-
-
- 
+Interface for importing raw data and managing data from SQL server
