@@ -385,7 +385,6 @@ def generate_portfolio(start_date, end_date, deposits, dividends, trades):
 
 
 if __name__ == '__main__':
-    pass
-    # from personal_portfolio import *
-    # start, end = '2018-06-14', '2020-11-13'
-    # portfolio = generate_portfolio(start, end, get_deposits(), get_dividends(), get_trades())
+    from personal_portfolio import *
+    start, end = '2018-06-14', '2020-11-13'
+    portfolio = generate_portfolio(start, end, get_deposits(), get_dividends(), get_trades())
